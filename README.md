@@ -1,7 +1,5 @@
 
-<p align="center">
-	<img src="https://raw.githubusercontent.com/Gian-UC/ai-agent-adk-demo/main/banner.png" alt="AriaAgent Banner" style="max-width: 100%;">
-</p>
+
 
 # AriaAgent
 <p align="center">
