@@ -71,14 +71,20 @@ pip install -r requirements.txt  # ou use o pyproject.toml com poetry/pdm
 	  SEGURAIA_API_KEY=SEU_TOKEN_AQUI
 	  ```
 
-4. Execute o agente (exemplo interativo):
+
+4. Execute a API (ADK Web):
+	```bash
+	adk web
+	```
+
+5. (Opcional) Execute o agente em modo interativo:
 	```python
 	from Aria.agent import root_agent
 	response = root_agent.run("Olá, Aria! O que você pode fazer?")
 	print(response)
 	```
 
-Você pode criar um script Python para interagir com a Aria ou integrar em outros sistemas.
+Você pode criar um script Python para interagir com a Aria, integrar em outros sistemas ou acessar a API via ADK Web.
 
 ## 📁 Estrutura do Projeto
 
