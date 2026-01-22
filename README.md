@@ -1,4 +1,16 @@
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/Gian-UC/ai-agent-adk-demo/main/banner.png" alt="AriaAgent Banner" style="max-width: 100%;">
+</p>
+
 # AriaAgent
+<p align="center">
+	<img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python" alt="Python">
+	<img src="https://img.shields.io/badge/Google%20ADK-%3E%3D1.22.1-blueviolet?logo=google" alt="Google ADK">
+	<img src="https://img.shields.io/badge/Google%20Gemini-0.8.6-ffca28?logo=google" alt="Google Gemini">
+	<img src="https://img.shields.io/badge/python--dotenv-1.2.1-44a833?logo=python" alt="python-dotenv">
+</p>
+
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Gian-UC/ai-agent-adk-demo)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Gian-UC/ai-agent-adk-demo)
