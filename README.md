@@ -1,5 +1,7 @@
 
-
+<p align="center">
+	<img src="https://raw.githubusercontent.com/Gian-UC/ai-agent-adk-demo/main/banner.png" alt="AriaAgent Banner" style="max-width: 100%;">
+</p>
 
 # AriaAgent
 <p align="center">
@@ -37,16 +39,46 @@ cd ai-agent-adk-demo
 pip install -r requirements.txt  # ou use o pyproject.toml com poetry/pdm
 ```
 
-## 🛠️ Uso
 
-Exemplo de inicialização do agente:
+## ▶️ Como rodar o projeto
 
-```python
-from Aria.agent import root_agent
+1. Crie e ative o ambiente virtual:
 
-response = root_agent.run("Olá, Aria! O que você pode fazer?")
-print(response)
-```
+	No Windows (cmd):
+	```bash
+	python -m venv .venv
+	.venv\Scripts\activate
+	```
+	No PowerShell:
+	```powershell
+	.venv\Scripts\Activate.ps1
+	```
+	No Linux/Mac:
+	```bash
+	python3 -m venv .venv
+	source .venv/bin/activate
+	```
+
+2. Instale as dependências:
+	```bash
+	pip install -r requirements.txt  # ou use poetry/pdm conforme preferir
+	```
+
+3. Configure as variáveis de ambiente:
+	- Crie um arquivo `.env` dentro da pasta `Aria/` com suas chaves:
+	  ```env
+	  GOOGLE_API_KEY=SEU_TOKEN_AQUI
+	  SEGURAIA_API_KEY=SEU_TOKEN_AQUI
+	  ```
+
+4. Execute o agente (exemplo interativo):
+	```python
+	from Aria.agent import root_agent
+	response = root_agent.run("Olá, Aria! O que você pode fazer?")
+	print(response)
+	```
+
+Você pode criar um script Python para interagir com a Aria ou integrar em outros sistemas.
 
 ## 📁 Estrutura do Projeto
 
