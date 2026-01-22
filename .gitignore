@@ -7,4 +7,21 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
+.env
+.adk/
+.DS_Store
+*.db
+*.sqlite3
+*.log
+uv.lock
+.python-version
+
+# Vídeos e arquivos grandes
+video/*.mp4
+*.mp4
+
+# Arquivos do sistema
+Thumbs.db
+ehthumbs.db
+desktop.ini
